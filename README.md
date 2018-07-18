@@ -31,6 +31,7 @@ for windows
 `./preprocess.sh`
 
 for linux
+
 `./main.sh`
 
 The output files are `./processed` and the `doclist-*.txt`.
@@ -38,4 +39,5 @@ The output files are `./processed` and the `doclist-*.txt`.
 
 `wordcount.py` can count the number of words and sentences.
 Use it as follows:
+
 `python wordcount.py <textfile.txt>`
