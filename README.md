@@ -69,3 +69,8 @@ Use it as follows:
     avg word per line :  59.5
     avg sent per paragraph : 4.0
 
+
+## License
+The dataset license follows the original.
+
+Keep in mind that the data outputted by this tool conform to the original "解答可能性付き読解データセット" license.
