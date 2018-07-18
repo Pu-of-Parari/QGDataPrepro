@@ -26,7 +26,7 @@ The `raw` folder includes the raw data files from the Suzuki's dataset, split in
 ## Requirements
 MeCab-python3
 
-## 
+## Run
 You only need to execute this command.
 
 for windows
