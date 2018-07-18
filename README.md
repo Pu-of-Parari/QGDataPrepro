@@ -21,7 +21,7 @@ After running, the structure of this folder is:
     ├── doclist-dev.txt
     └── doclist-test.txt
 
-The `raw` folder includes the raw data files from the Suzuki's dataset, split into train.json, dev.json, test.json set. The data is divided beforehand into 13,000(train), 1300(dev), 1,291(test) respectively.
+The `raw` folder includes the raw data files from the dataset, split into train.json, dev.json, test.json set. The data is divided beforehand into 13,000(train), 1300(dev), 1,291(test) respectively.
 
 ## Requirements
 MeCab-python3
