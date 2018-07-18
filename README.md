@@ -26,16 +26,29 @@ The `raw` folder includes the raw data files from the Suzuki's dataset, split in
 ## Requirements
 MeCab-python3
 
+## Setting
+
+    cd QGDataPrepro/raw
+
+Download the dataset to [here](http://www.cl.ecei.tohoku.ac.jp/rcqa/)
+
+And split the dataset into `train.json`, `dev.json`, `test.json`
+
+After setting, it should be as follows:
+
+    $ ls ./raw/
+    all-v1.0.json  dev.json  test.json  train.json
+
 ## Run
 You only need to execute this command.
 
 for windows
 
-```./preprocess.sh```
+    ./preprocess.sh
 
 for linux
 
-```./main.sh```
+    ./main.sh
 
 The output files are `./processed` and the `doclist-*.txt`.
 
@@ -43,4 +56,16 @@ The output files are `./processed` and the `doclist-*.txt`.
 `wordcount.py` can count the number of words and sentences.
 Use it as follows:
 
-```python wordcount.py <textfile.txt>```
+    python wordcount.py <wakatitextfile.txt>
+
+### Example
+    $ python wordcount.py test.txt 
+<br>
+
+    About wakatitest.txt ...
+    tokens :  119
+    lines  :  2
+    sents : 8
+    avg word per line :  59.5
+    avg sent per paragraph : 4.0
+
