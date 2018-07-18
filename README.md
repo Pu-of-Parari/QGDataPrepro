@@ -1,6 +1,7 @@
 # QGDataPrepro
 ## Overview
 Data preprocess for neural question generation model
+
 This is the data split described in the paper "Learning to Ask: Neural Question Generation for Reading Comprehension." by Du et. al, ACL (2017) using "回答可能性付き読解データセット" in the paper "読解による解答可能性を付与した質問応答データセットの構築"by M. Suzuki et. al, 言語処理学会 第24回年次大会.
 
 The structure of this folder is:
@@ -30,7 +31,7 @@ You only need to execute this command.
 
 for windows
 
-`./preprocess.sh`
+ ./preprocess.sh
 
 for linux
 
