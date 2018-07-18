@@ -31,11 +31,11 @@ You only need to execute this command.
 
 for windows
 
- ./preprocess.sh
+```./preprocess.sh```
 
 for linux
 
-`./main.sh`
+```./main.sh```
 
 The output files are `./processed` and the `doclist-*.txt`.
 
@@ -43,4 +43,4 @@ The output files are `./processed` and the `doclist-*.txt`.
 `wordcount.py` can count the number of words and sentences.
 Use it as follows:
 
-`python wordcount.py <textfile.txt>`
+```python wordcount.py <textfile.txt>```
