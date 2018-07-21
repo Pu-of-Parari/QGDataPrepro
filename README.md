@@ -52,8 +52,17 @@ for linux
 
 The output files are `./processed` and the `doclist-*.txt`.
 
+## `wakatiout.py`
+`wakatiout.py` can make the file procecced wakati.
+<br>
+Use it as follows:
 
+    python wakatiout.py <inputtextfile.txt>
+
+## `wordcount.py`
 `wordcount.py` can count the number of words and sentences.
+The input file need to wakati.
+<br>
 Use it as follows:
 
     python wordcount.py <wakatitextfile.txt>
