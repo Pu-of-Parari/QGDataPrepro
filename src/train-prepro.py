@@ -69,7 +69,5 @@ with open('./processed/tgt-train.txt', 'w') as tgt_train, open('./processed/ans-
 
                                 doc_train.write(title_under)
                                 doc_train.write('\n')
-                            break
-
 
 json_file.close()
