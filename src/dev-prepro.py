@@ -69,7 +69,5 @@ with open('./processed/tgt-dev.txt', 'w') as tgt_dev, open('./processed/ans-dev.
 
                                 doc_dev.write(title_under)
                                 doc_dev.write('\n')
-                            break
-
 
 json_file.close()
